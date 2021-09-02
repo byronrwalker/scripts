@@ -1,0 +1,21 @@
+{
+  "name": "token-helper",
+  "version": "1.0.0",
+  "description": "Store and retrieve github tokens",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "byronrwalker",
+  "license": "ISC",
+  "dependencies": {
+    "clipboardy": "^2.3.0",
+    "inquirer": "^7.3.3",
+    "sqlite": "^4.0.19",
+    "sqlite3": "^5.0.2",
+    "yargs": "^16.2.0"
+  },
+  "bin": {
+    "token-helper": "index.js"
+  }
+}
